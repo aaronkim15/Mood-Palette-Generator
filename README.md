@@ -1,5 +1,5 @@
 # Mood-Palette-Generator
-A small web app that creates color palettes based on the user's mood.
+A small web app that creates colour palettes based on the user's mood.
 
 ## Core Concepts:
 - HTML, CSS, JavaScript fundamentals
