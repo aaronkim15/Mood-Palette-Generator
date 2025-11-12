@@ -1,6 +1,17 @@
+@import "tailwindcss";
+
+body{
+    background-color: azure;
+}
+.container {
+    display: grid;
+    place-content: center;
+    height: 800px;
+}
+
 #colourBox{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     margin-top: 20px;
     border-radius: 10px;
     border: 2px solid black;

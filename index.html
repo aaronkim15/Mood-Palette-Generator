@@ -9,9 +9,10 @@
   </head>
 
   <body>
-    <div>
-      <h1 class="mb-4 text-3xl font-bold underline">Mood Palette Generator</h1>
 
+    <h1 class="grid mb-4 text-3xl font-bold underline place-items-center">Mood Palette Generator</h1>
+    
+    <div class="grid content-center grid-cols-3 gap-4">
       <button class="bg-blue-300 px-4 py-2 rounded-lg" id="calmBtn">
         Calm Button
       </button>
@@ -23,10 +24,12 @@
       <button class="bg-purple-300 px-4 py-2 rounded-lg" id="tiredBtn">
         Tired Button
       </button>
-
-      <div class="w-52 h-52 mt-5 border-2 border-black rounded-xl"></div>
     </div>
 
+    <div class="container">
+      <div id="colourBox"></div>
+    </div>
+    
     <script src="script.js"></script>
   </body>
 </html>
