@@ -10,7 +10,7 @@ A small web app that creates color palettes based on the user's mood.
 ## Tools:
 - VS Code
 - Browser DevTools
-- Maybe TailwindCSS
+- TailwindCSS
 
 ## Features:
 - User picks a mood (calm, happy, sad, angry, etc...)
