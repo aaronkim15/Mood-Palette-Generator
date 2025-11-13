@@ -9,11 +9,11 @@
   </head>
 
   <body>
-    <h1 class="grid mb-4 text-3xl font-bold underline place-items-center">
+    <h1 class="grid font-bold font-mono mb-4 text-3xl font-bold underline place-items-center">
       Mood Palette Generator
     </h1>
 
-    <div class="grid content-center grid-cols-3 gap-4">
+    <div class="grid font-mono content-center grid-cols-3 gap-4">
       <button class="bg-blue-300 px-4 py-2 rounded-lg" id="calmBtn">
         Calm
       </button>
@@ -29,6 +29,14 @@
 
     <div class="container">
       <div id="colourBox"></div>
+    </div>
+
+    <div class="relative bottom-46 left-143">
+      <p class="font-mono text-lg" id="colourHex">HEX code:</p>
+    </div>
+
+    <div class="ml-175 font-mono">
+      <button class="bg-red-300 px-4 py-2 rounded-lg" id="copyHexBtn">Copy Colour</button>
     </div>
 
     <script src="script.js"></script>
