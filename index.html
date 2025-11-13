@@ -9,34 +9,46 @@
   </head>
 
   <body>
-    <h1 class="grid font-bold font-mono mb-4 text-3xl font-bold underline place-items-center">
+    <h1
+      class="grid font-bold font-mono mb-4 text-3xl font-bold underline place-items-center"
+    >
       Mood Palette Generator
     </h1>
 
     <div class="grid font-mono content-center grid-cols-3 gap-4">
-      <button class="bg-blue-300 px-4 py-2 rounded-lg" id="calmBtn">
+      <button
+        class="bg-blue-300 px-4 py-2 rounded-lg hover:bg-blue-400 transition"
+        id="calmBtn"
+      >
         Calm
       </button>
 
-      <button class="bg-amber-400 px-4 py-2 rounded-lg" id="energeticBtn">
+      <button
+        class="bg-amber-400 px-4 py-2 rounded-lg hover:bg-amber-500 transition"
+        id="energeticBtn"
+      >
         Energetic
       </button>
 
-      <button class="bg-purple-300 px-4 py-2 rounded-lg" id="tiredBtn">
+      <button
+        class="bg-purple-300 px-4 py-2 rounded-lg hover:bg-purple-400 transition"
+        id="tiredBtn"
+      >
         Tired
       </button>
     </div>
 
-    <div class="container">
-      <div id="colourBox"></div>
-    </div>
+    <div class="flex flex-col place-items-center gap-4 mt-10">
+      <div class="shadow-lg shadow-black" id="colourBox"></div>
 
-    <div class="relative bottom-46 left-143">
-      <p class="font-mono text-lg" id="colourHex">HEX code:</p>
-    </div>
+      <p class="font-mono text-lg relative right-23 w-48" id="colourHex">HEX Code:</p>
 
-    <div class="ml-175 font-mono">
-      <button class="bg-red-300 px-4 py-2 rounded-lg" id="copyHexBtn">Copy Colour</button>
+      <button
+        class="bg-red-300 px-4 py-2 rounded-lg hover:bg-red-400 transition"
+        id="copyHexBtn"
+      >
+        Copy Colour
+      </button>
     </div>
 
     <script src="script.js"></script>
